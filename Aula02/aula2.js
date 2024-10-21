@@ -6,8 +6,8 @@ let ultimoNome = 'Tomaz';
 let nomeCompleto = primeiroNome + ' ' + ultimoNome;
 
 let idadeNumero = 18;
-let cpfDocumento = 920.229.029-09;
-let rgDocumento = 60.445.443-9;
+let cpfDocumento = 92022902909;
+let rgDocumento = 604454439;
 let enderecoLocal = 'Rua DomBosco';
 
 let tipoConta = 'Corrente';
@@ -16,9 +16,9 @@ let digitosCartao = 1234;
 let saldoBancario = 1666;
 
 
-let nomeCompleto = `${primeiroNome} ${ultimoNome}`
+let nomeCompletoTemplate = `${primeiroNome} ${ultimoNome}`;
 let dadosCompletos = `${idadeNumero} ${cpfDocumento} ${rgDocumento} ${enderecoLocal}`;
-
+let dadosConta = `${tipoConta} ${tipoCartao} ${digitosCartao} ${saldoBancario}`;
 
 
 console.log(informacoes);
