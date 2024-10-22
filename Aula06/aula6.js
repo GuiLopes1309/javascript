@@ -8,8 +8,9 @@ const Carta = {
     slogan: 'Pikachu e raio'
 };
 
-console.log(`Meu personagem se chama ${Carta.nome}`);
-console.log(`Minha habilidade é de ${Carta.habilidade}`);
-console.log(`Minha defesa é de ${Carta.defesa}`);
-console.log(`Meu ataque é de ${Carta.ataque}`);
-console.log(`Meu slogan é de ${Carta.slogan}`)
+console.log(`Meu personagem se chama: ${Carta.nome}`);
+console.log(`Sua habilidade é: ${Carta.habilidade}`);
+console.log(`Sua defesa é: ${Carta.defesa}`);
+console.log(`Seu ataque é: ${Carta.ataque}`);
+console.log(`Mais conhecido como: ${Carta.slogan}`);
+//Tipo objeto dentro do JAVASCRIPT
