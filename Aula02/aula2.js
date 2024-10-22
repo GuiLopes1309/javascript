@@ -17,8 +17,9 @@ let saldoBancario = 1666;
 
 
 let nomeCompletoTemplate = `${primeiroNome} ${ultimoNome}`;
-let dadosCompletos = `${idadeNumero} ${cpfDocumento} ${rgDocumento} ${enderecoLocal}`;
-let dadosConta = `${tipoConta} ${tipoCartao} ${digitosCartao} ${saldoBancario}`;
+let dadosCompletos = `\n ${idadeNumero} \n ${cpfDocumento} \n ${rgDocumento} \n ${enderecoLocal}`;
+let dadosConta = `\n ${tipoConta} \n ${tipoCartao} \n ${digitosCartao} \n ${saldoBancario}`;
 
+let informacoes = `${nomeCompletoTemplate} ${dadosCompletos} ${dadosConta}` 
 
 console.log(informacoes);
